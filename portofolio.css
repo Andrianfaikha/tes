@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccb597;
+    color: #333333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Tambahkan margin untuk .img_deg */
+.img_deg {
+    float: left;
+    margin-right: 50px; /* Sesuaikan dengan kebutuhan Anda */
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+/* Tambahkan padding dan margin untuk section about */
+#about {
+    padding-top: 40px; /* Sesuaikan dengan kebutuhan Anda */
+    padding-bottom: 90px; /* Sesuaikan dengan kebutuhan Anda */
+    margin-bottom: 3px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+
+header {
+    padding: 2em;
+    background-color: #997950;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+section {
+    
+    margin: 2em 0;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 0.5em;
+    
+}
+
+h2 {
+    color: #775b37;
+}
+
+h3 {
+    color: #775b37;
+}
+
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.project img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.189);
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #997950;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5em 0;
+    border-top: 22px solid #ccb597;
+}
